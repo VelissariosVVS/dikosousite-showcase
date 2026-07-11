@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+<title id="title">DikoSouSite brand mark</title><desc id="desc">Παράθυρο ιστοσελίδας, σπίτι και δείκτης επιλογής</desc>
+<rect x="5" y="7" width="48" height="42" rx="9" fill="none" stroke="#0f7ae5" stroke-width="4"/>
+<path d="M5 18h48" stroke="#0f7ae5" stroke-width="4"/><circle cx="12" cy="13" r="1.8" fill="#0f7ae5"/><circle cx="18" cy="13" r="1.8" fill="#0f7ae5" opacity=".78"/><circle cx="24" cy="13" r="1.8" fill="#0f7ae5" opacity=".55"/>
+<path d="M17 37 29 27l12 10v12H17V37Z" fill="none" stroke="#10243e" stroke-width="3.5" stroke-linejoin="round"/><path d="M23 48V37h12v11" fill="none" stroke="#10243e" stroke-width="3.5"/>
+<path d="m36 35 7 19 4-7 8 4 2-4-8-4 7-4-20-4Z" fill="#ff7a00" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M52 31h7M54 37h6M52 25h6" stroke="#ff7a00" stroke-width="3" stroke-linecap="round"/>
+</svg>
