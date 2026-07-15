@@ -102,7 +102,7 @@ export default function HomePage() {
               <Link key={category.id} href={`/templates#${category.id}`} className={`category-card category-card--${category.id}`}>
                 <span className="category-card__index">0{index + 1}</span>
                 <div className="category-card__icon" aria-hidden="true">
-                  {category.id === "doctor" ? "+" : category.id === "barber" ? "✂" : "☕"}
+                  {category.id === "doctor" ? "+" : category.id === "barbershop" ? "✂" : "☕"}
                 </div>
                 <h3>{category.label}</h3>
                 <p>{category.description}</p>
@@ -134,7 +134,7 @@ export default function HomePage() {
           </div>
           <div className="process-grid">
             {[
-              ["01", "Επιλογή κατεύθυνσης", "Διαλέγετε το template που ταιριάζει περισσότερο στην εικόνα και στο κοινό σας."],
+              ["01", "Επιλογή κατεύθυνσης", "Διαλέγετε το template που ταιριάζει περισσότερο στην εικόνα και στο κοινό σας ή προτείνεται μια δικιά σας ιδέα."],
               ["02", "Συλλογή υλικού", "Μας δίνετε στοιχεία επιχείρησης, υπηρεσίες, φωτογραφίες, τοποθεσία και διαθέσιμες αξιολογήσεις."],
               ["03", "Προσαρμογή & SEO", "Προσαρμόζουμε design, κείμενα, local SEO, metadata και calls-to-action."],
               ["04", "Έλεγχος & παράδοση", "Ελέγχετε το τελικό αποτέλεσμα και λαμβάνετε έτοιμο site με οδηγίες deployment και διαχείρισης."],
