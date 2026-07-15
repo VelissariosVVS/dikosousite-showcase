@@ -151,7 +151,7 @@ export const templates: TemplateDefinition[] = [
   },
   {
     id: "barber-heritage",
-    category: "barbershop",
+    category: "barber",
     categoryLabel: "Κουρείο",
     layout: "serene",
     name: "Heritage Cut",
@@ -188,7 +188,7 @@ export const templates: TemplateDefinition[] = [
   },
   {
     id: "barber-urban",
-    category: "barbershop",
+    category: "barber",
     categoryLabel: "Κουρείο",
     layout: "editorial",
     name: "Urban Fade",
@@ -455,7 +455,7 @@ export const categories = [
     description: "Αξιόπιστα websites για ιατρούς, κλινικές και επαγγελματίες υγείας.",
   },
   {
-    id: "barbershop",
+    id: "barber",
     label: "Κουρεία",
     short: "Barbers",
     description: "Δυνατή ταυτότητα, online booking και mobile-first εμπειρία.",
