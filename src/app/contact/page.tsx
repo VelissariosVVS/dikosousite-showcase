@@ -21,7 +21,7 @@ export default function ContactPage() {
             <span className="section-kicker"><i /> Επικοινωνία</span>
             <h1>Ας συζητήσουμε για τη δική σας online παρουσία.</h1>
             <p>
-              Στείλτε μας email αναφέροντας την επιχείρησή σας και το template που σας ενδιαφέρει.
+              Στείλτε μας email αναφέροντας την επιχείρησή σας και είτε το template που σας ενδιαφέρει είτε κάποια δικιά σας ιδέα.
             </p>
           </div>
           <div className="contact-card">
