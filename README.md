@@ -8,14 +8,14 @@ Production-ready Next.js showcase με 12 live templates για γιατρούς
 - 12 responsive live templates
 - SEO metadata, sitemap, robots.txt και structured data
 - Σελίδα επικοινωνίας χωρίς φόρμα ή τιμοκατάλογο
-- Άμεσο email: `belisalex9876@gmail.com`
+- Άμεσο email: `info@dikosousite.gr`
 - Privacy και terms pages προσαρμοσμένες στην απλή επικοινωνία μέσω email
 
 ## Τοπική εκτέλεση
 
 ```bash
 npm install
-copy .env.local.example .env.local
+
 npm run dev
 ```
 
@@ -24,9 +24,9 @@ npm run dev
 ## Ρυθμίσεις
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://your-domain.gr
+NEXT_PUBLIC_SITE_URL=https://dikosousite.gr
 NEXT_PUBLIC_BRAND_NAME=DikoSouSite
-NEXT_PUBLIC_CONTACT_EMAIL=belisalex9876@gmail.com
+NEXT_PUBLIC_CONTACT_EMAIL=info@dikosousite.com
 ```
 
 ## Routes
