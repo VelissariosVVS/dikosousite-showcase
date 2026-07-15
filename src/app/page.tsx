@@ -102,7 +102,7 @@ export default function HomePage() {
               <Link key={category.id} href={`/templates#${category.id}`} className={`category-card category-card--${category.id}`}>
                 <span className="category-card__index">0{index + 1}</span>
                 <div className="category-card__icon" aria-hidden="true">
-                  {category.id === "doctor" ? "+" : category.id === "barbershop" ? "✂" : "☕"}
+                  {category.id === "doctor" ? "+" : category.id === "barber" ? "✂" : "☕"}
                 </div>
                 <h3>{category.label}</h3>
                 <p>{category.description}</p>
