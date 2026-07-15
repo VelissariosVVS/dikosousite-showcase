@@ -4,7 +4,7 @@ export const templates: TemplateDefinition[] = [
   {
     id: "doctor-serenity",
     category: "doctor",
-    categoryLabel: "Γιατρός",
+    categoryLabel: "Ιατρός",
     layout: "serene",
     name: "Serenity Clinic",
     businessName: "Ιατρείο Δρ. Ελένης Αντωνίου",
@@ -14,7 +14,7 @@ export const templates: TemplateDefinition[] = [
     heroText:
       "Ένα ήρεμο, αξιόπιστο website για ιδιώτες ιατρούς που θέλουν να εμπνέουν εμπιστοσύνη από την πρώτη επίσκεψη.",
     primaryAction: "Κλείστε ραντεβού",
-    secondaryAction: "Γνωρίστε τη γιατρό",
+    secondaryAction: "Γνωρίστε την ιατρό",
     description: "Απαλό, premium template με έμφαση στην εμπιστοσύνη και την καθαρή πληροφορία.",
     services: [
       { title: "Κλινική εξέταση", text: "Ολοκληρωμένη αξιολόγηση με εξατομικευμένη καθοδήγηση." },
@@ -41,7 +41,7 @@ export const templates: TemplateDefinition[] = [
   {
     id: "doctor-precision",
     category: "doctor",
-    categoryLabel: "Γιατρός",
+    categoryLabel: "Ιατρός",
     layout: "editorial",
     name: "Precision Medical",
     businessName: "Καρδιολογικό Ιατρείο Ν. Παπαδάκη",
@@ -78,7 +78,7 @@ export const templates: TemplateDefinition[] = [
   {
     id: "doctor-family",
     category: "doctor",
-    categoryLabel: "Γιατρός",
+    categoryLabel: "Ιατρός",
     layout: "bold",
     name: "Family Care",
     businessName: "Παιδιατρικό Ιατρείο Μικροί Ήρωες",
@@ -115,7 +115,7 @@ export const templates: TemplateDefinition[] = [
   {
     id: "doctor-aesthetic",
     category: "doctor",
-    categoryLabel: "Γιατρός",
+    categoryLabel: "Ιατρός",
     layout: "minimal",
     name: "Aesthetic Health",
     businessName: "Derma Atelier",
@@ -151,7 +151,7 @@ export const templates: TemplateDefinition[] = [
   },
   {
     id: "barber-heritage",
-    category: "barber",
+    category: "barbershop",
     categoryLabel: "Κουρείο",
     layout: "serene",
     name: "Heritage Cut",
@@ -160,10 +160,10 @@ export const templates: TemplateDefinition[] = [
     eyebrow: "Classic cuts · modern craft",
     heroTitle: "Παράδοση στο ξύρισμα. Ακρίβεια στο στυλ.",
     heroText:
-      "Ένα διαχρονικό barber template με premium αίσθηση, ιδανικό για κουρεία που βασίζονται στην τεχνική και την εμπειρία.",
+      "Ένα διαχρονικό barbershop template με premium αίσθηση, ιδανικό για κουρεία που βασίζονται στην τεχνική και την εμπειρία.",
     primaryAction: "Κλείσε θέση",
     secondaryAction: "Δες υπηρεσίες",
-    description: "Κλασικό premium barber design με ζεστούς τόνους και διαχρονικό χαρακτήρα.",
+    description: "Κλασικό premium barbershop design με ζεστούς τόνους και διαχρονικό χαρακτήρα.",
     services: [
       { title: "Classic haircut", text: "Κούρεμα με προσαρμογή στο πρόσωπο και στο προσωπικό σου στυλ." },
       { title: "Hot towel shave", text: "Παραδοσιακό ξύρισμα με ζεστή πετσέτα και premium προϊόντα." },
@@ -188,7 +188,7 @@ export const templates: TemplateDefinition[] = [
   },
   {
     id: "barber-urban",
-    category: "barber",
+    category: "barbershop",
     categoryLabel: "Κουρείο",
     layout: "editorial",
     name: "Urban Fade",
@@ -274,7 +274,7 @@ export const templates: TemplateDefinition[] = [
       "High-energy dark template για shops που θέλουν να ξεχωρίζουν, με έντονα χρώματα, μεγάλα CTA και social-first παρουσία.",
     primaryAction: "Book after dark",
     secondaryAction: "See transformations",
-    description: "Dark neon design για δυναμικά barber brands και nightlife κοινό.",
+    description: "Dark neon design για δυναμικά barbershop brands και nightlife κοινό.",
     services: [
       { title: "Night fade", text: "High-contrast fade με sharp γραμμές και λεπτομερές finish." },
       { title: "Style reset", text: "Ολοκληρωμένη αλλαγή look με consultation." },
@@ -455,7 +455,7 @@ export const categories = [
     description: "Αξιόπιστα websites για ιατρούς, κλινικές και επαγγελματίες υγείας.",
   },
   {
-    id: "barber",
+    id: "barbershop",
     label: "Κουρεία",
     short: "Barbers",
     description: "Δυνατή ταυτότητα, online booking και mobile-first εμπειρία.",
